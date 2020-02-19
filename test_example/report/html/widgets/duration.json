@@ -1,0 +1,71 @@
+[ {
+  "uid" : "3a4734d32e5580f1",
+  "name" : "test_function",
+  "time" : {
+    "start" : 1582100331591,
+    "stop" : 1582100331591,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "668794d9e3e0caee",
+  "name" : "test_163",
+  "time" : {
+    "start" : 1582100331779,
+    "stop" : 1582100331966,
+    "duration" : 187
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e72d7562c5a01bc3",
+  "name" : "test_126",
+  "time" : {
+    "start" : 1582100331601,
+    "stop" : 1582100331767,
+    "duration" : 166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc00d39acda17817",
+  "name" : "test_www_asiainfo_open",
+  "time" : {
+    "start" : 1582100327889,
+    "stop" : 1582100328198,
+    "duration" : 309
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "690c2e9d04d9f5f0",
+  "name" : "test_oa_asiainfo_open",
+  "time" : {
+    "start" : 1582100328208,
+    "stop" : 1582100330491,
+    "duration" : 2283
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c44c66de67919a27",
+  "name" : "test_needsfiles",
+  "time" : {
+    "start" : 1582100331576,
+    "stop" : 1582100331577,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a3b147d86164f1",
+  "name" : "test_baidu_open",
+  "time" : {
+    "start" : 1582100327805,
+    "stop" : 1582100327881,
+    "duration" : 76
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,97 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_baidu",
+    "children" : [ {
+      "name" : "test_baidu_open",
+      "uid" : "2a3b147d86164f1",
+      "parentUid" : "e590d1bc2340c14091712fae8658fa9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582100327805,
+        "stop" : 1582100327881,
+        "duration" : 76
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_www_asiainfo_open",
+      "uid" : "dc00d39acda17817",
+      "parentUid" : "e590d1bc2340c14091712fae8658fa9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582100327889,
+        "stop" : 1582100328198,
+        "duration" : 309
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_oa_asiainfo_open",
+      "uid" : "690c2e9d04d9f5f0",
+      "parentUid" : "e590d1bc2340c14091712fae8658fa9f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582100328208,
+        "stop" : 1582100330491,
+        "duration" : 2283
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_needsfiles",
+      "uid" : "c44c66de67919a27",
+      "parentUid" : "e590d1bc2340c14091712fae8658fa9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582100331576,
+        "stop" : 1582100331577,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_function",
+      "uid" : "3a4734d32e5580f1",
+      "parentUid" : "e590d1bc2340c14091712fae8658fa9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582100331591,
+        "stop" : 1582100331591,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e590d1bc2340c14091712fae8658fa9f"
+  }, {
+    "name" : "test_mail",
+    "children" : [ {
+      "name" : "test_126",
+      "uid" : "e72d7562c5a01bc3",
+      "parentUid" : "25bd9d6cd35eb4fa9be641a3817f9bf9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582100331601,
+        "stop" : 1582100331767,
+        "duration" : 166
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_163",
+      "uid" : "668794d9e3e0caee",
+      "parentUid" : "25bd9d6cd35eb4fa9be641a3817f9bf9",
+      "status" : "failed",
+      "time" : {
+        "start" : 1582100331779,
+        "stop" : 1582100331966,
+        "duration" : 187
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "25bd9d6cd35eb4fa9be641a3817f9bf9"
+  } ]
+}

@@ -1,0 +1,55 @@
+{
+  "uid" : "668794d9e3e0caee",
+  "name" : "test_163",
+  "fullName" : "test_mail#test_163",
+  "historyId" : "d478d872a85bdff282a70d32ac51672b",
+  "time" : {
+    "start" : 1582100331779,
+    "stop" : 1582100331966,
+    "duration" : 187
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'OK' == 'ok'\n  - OK\n  + ok",
+  "statusTrace" : "def test_163():\n        rst = mailCon.connect_mail('imap.163.com', 'sun_jades', 'cails_78815')\n>       assert rst[0] == 'ok'\nE       AssertionError: assert 'OK' == 'ok'\nE         - OK\nE         + ok\n\ntest_mail.py:9: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_mail"
+  }, {
+    "name" : "host",
+    "value" : "PC-20160717KIMX"
+  }, {
+    "name" : "thread",
+    "value" : "8136-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_mail"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "668794d9e3e0caee.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,49 @@
+{
+  "uid" : "e72d7562c5a01bc3",
+  "name" : "test_126",
+  "fullName" : "test_mail#test_126",
+  "historyId" : "1586af9477573ade47bdc87baaef210b",
+  "time" : {
+    "start" : 1582100331601,
+    "stop" : 1582100331767,
+    "duration" : 166
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_mail"
+  }, {
+    "name" : "host",
+    "value" : "PC-20160717KIMX"
+  }, {
+    "name" : "thread",
+    "value" : "8136-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_mail"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e72d7562c5a01bc3.json",
+  "parameterValues" : [ ]
+}

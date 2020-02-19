@@ -1,0 +1,45 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='oa.asiainfo.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<requests.packages.urllib3.connection.HTTPConnection object at 0x0000000004C80898>: Failed to establish a new connection: [Errno 11004] getaddrinfo failed',))",
+      "children" : [ {
+        "name" : "test_oa_asiainfo_open",
+        "uid" : "690c2e9d04d9f5f0",
+        "parentUid" : "42f9fa2f3cd01ecffe0b6477a7bcdd8b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1582100328208,
+          "stop" : 1582100330491,
+          "duration" : 2283
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "42f9fa2f3cd01ecffe0b6477a7bcdd8b"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 'OK' == 'ok'\n  - OK\n  + ok",
+      "children" : [ {
+        "name" : "test_163",
+        "uid" : "668794d9e3e0caee",
+        "parentUid" : "9f1033208cf6d05e335118fb525e2698",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582100331779,
+          "stop" : 1582100331966,
+          "duration" : 187
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9f1033208cf6d05e335118fb525e2698"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,8 @@
+"Status","Name","Duration in ms","Description"
+"passed","test_baidu#test_function","0",""
+"failed","test_mail#test_163","187",""
+"passed","test_mail#test_126","166",""
+"passed","test_baidu#test_www_asiainfo_open","309",""
+"broken","test_baidu#test_oa_asiainfo_open","2283",""
+"passed","test_baidu#test_needsfiles","1",""
+"passed","test_baidu#test_baidu_open","76",""
