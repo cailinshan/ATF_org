@@ -1,8 +1,12 @@
 #mailCon.py
 import imaplib
+import configs
 
-def connect_mail(mail_server,username, password):
-    clint = imaplib.IMAP4(mail_server)
+def connect_mail(mailnm,user):
+    sendserver = configs.mailinfo.get(mailnm).get('send')
+    username = configs.mailinfo.get(mailnm).get(user).get('username')
+    password = configs.mailinfo.get(mailnm).get(user).get('password')
+    clint = imaplib.IMAP4(sendserver)
     rst=clint.login(username, password)
     return  rst
 

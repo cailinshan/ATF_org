@@ -3,87 +3,111 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "test_baidu_open",
-    "uid" : "2a3b147d86164f1",
+    "uid" : "bc8ef1a80627b936",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1582100327805,
-      "stop" : 1582100327881,
-      "duration" : 76
+      "start" : 1582698964442,
+      "stop" : 1582698964573,
+      "duration" : 131
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "test_www_asiainfo_open",
-    "uid" : "dc00d39acda17817",
+    "uid" : "45e57b684a6e2874",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1582100327889,
-      "stop" : 1582100328198,
-      "duration" : 309
+      "start" : 1582698964603,
+      "stop" : 1582698965069,
+      "duration" : 466
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "test_oa_asiainfo_open",
-    "uid" : "690c2e9d04d9f5f0",
+    "uid" : "d07847e59e5a2b3c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "broken",
+    "status" : "passed",
     "time" : {
-      "start" : 1582100328208,
-      "stop" : 1582100330491,
-      "duration" : 2283
+      "start" : 1582698965078,
+      "stop" : 1582698965418,
+      "duration" : 340
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "test_needsfiles",
-    "uid" : "c44c66de67919a27",
+    "uid" : "ce092d69237fbd50",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1582100331576,
-      "stop" : 1582100331577,
+      "start" : 1582698965548,
+      "stop" : 1582698965549,
       "duration" : 1
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "test_function",
-    "uid" : "3a4734d32e5580f1",
+    "uid" : "449c74b2eea8af61",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1582100331591,
-      "stop" : 1582100331591,
+      "start" : 1582698965566,
+      "stop" : 1582698965566,
       "duration" : 0
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "test_126",
-    "uid" : "e72d7562c5a01bc3",
+    "uid" : "e9b19e2123180522",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1582100331601,
-      "stop" : 1582100331767,
-      "duration" : 166
+      "start" : 1582698965581,
+      "stop" : 1582698965768,
+      "duration" : 187
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
     "name" : "test_163",
-    "uid" : "668794d9e3e0caee",
+    "uid" : "9286bf5d3de12fd9",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "failed",
+    "status" : "passed",
     "time" : {
-      "start" : 1582100331779,
-      "stop" : 1582100331966,
-      "duration" : 187
+      "start" : 1582698965777,
+      "stop" : 1582698965958,
+      "duration" : 181
     },
     "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_asiainfo",
+    "uid" : "ffe9f46cb92ff474",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1582698965967,
+      "stop" : 1582698986995,
+      "duration" : 21028
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_zhengzhou",
+    "uid" : "4ff22e89320ec88",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1582698987692,
+      "stop" : 1582699007248,
+      "duration" : 19556
+    },
+    "flaky" : true,
     "parameters" : [ ]
   } ]
 }

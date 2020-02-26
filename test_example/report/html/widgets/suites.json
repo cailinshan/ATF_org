@@ -1,26 +1,37 @@
 {
-  "total" : 2,
+  "total" : 3,
   "items" : [ {
     "uid" : "25bd9d6cd35eb4fa9be641a3817f9bf9",
     "name" : "test_mail",
     "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
+      "failed" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     }
   }, {
     "uid" : "e590d1bc2340c14091712fae8658fa9f",
     "name" : "test_baidu",
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 5,
       "unknown" : 0,
       "total" : 5
+    }
+  }, {
+    "uid" : "f8ea4a1303e54c724c92e6760c50d2ef",
+    "name" : "test_weather",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
     }
   } ]
 }
