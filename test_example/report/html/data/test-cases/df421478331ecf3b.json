@@ -1,0 +1,47 @@
+{
+  "uid" : "df421478331ecf3b",
+  "name" : "test_baidu_open",
+  "fullName" : "test_baidu#test_baidu_open",
+  "historyId" : "a3e995b637c70d02134aaa488045796b",
+  "time" : {
+    "start" : 1582683766680,
+    "stop" : 1582683766752,
+    "duration" : 72
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_baidu"
+  }, {
+    "name" : "host",
+    "value" : "PC-20160717KIMX"
+  }, {
+    "name" : "thread",
+    "value" : "8844-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_baidu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "df421478331ecf3b.json",
+  "parameterValues" : [ ]
+}
